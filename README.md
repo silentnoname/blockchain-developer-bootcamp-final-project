@@ -1,9 +1,9 @@
 # blockchain-developer-bootcamp-final-project
-## Token locker-help people lock their token in contract as they want
-### Token locker workflow
-1. User can create their own vault by interact with contract.
-2. User can choose the locking time.
-3. There will be a emergency withdraw function which will charge some fees .
-4. By locking their token,people get $Lock token reward based the time and value.
-5. After locking period end, people can withdraw their token as they want without any charge and get $Lock reward.
-
+## create payment on blockchain
+###  workflow
+1. User can create their payment by submit amount,total amount and payer list.
+2. Payment receiver can cancel the payment.
+3. payers can pay.
+4. After paid,payer name will appear to paid list.
+5. Receiver can withdraw the money received.
+6. After all payer paid, the payment should be finished.
