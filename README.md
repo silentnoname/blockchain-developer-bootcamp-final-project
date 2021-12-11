@@ -3,10 +3,10 @@
 ## Public Ethereum account for NFT certificate
 `0x211126674fEdE6fC82F1C2ad95F12BaE374EFC1d`
 ##  Create payment on blockchain work flow
-1. Users can create their payment by submit name,total amount and payer list,the payment receiver will be themselves.
+1. Users can create their payment by submit name,total amount and payer list,the payment receiver will be themselves. Every payer should pay total amount/payer num. Eg: total amount 1 ETH,payer list: `a,b`. Every payer should pay 0.5 ETH.
 2. Payment receiver can cancel the payment.
 3. Payers can pay the payment by payment id and payer name.
-4. After paid,payer name will appear to paid list.
+4. After paid,payer name will appear to paid payer list.
 5. Receiver can withdraw the money that payment received.
 6. After all payers paid, the payment should be finished.
 7. Everyone can get payment detail by payment id,receiver can get the payment id that he created.
