@@ -32,11 +32,29 @@ yarn 1.22.17
 npm 8.2.0
 ```
 ## Run project locally
+### Run front end
+1. `cd client`
+2. `yarn install` 
+3. `yarn start` and open `http://localhost:8080/`
+
+### deploy on other chain
+1. `git clone https://github.com/silentnoname/blockchain-developer-bootcamp-final-project.git`
+2. `cd blockchain-developer-bootcamp-final-project`
+3. `npm install truffle-hdwallet-provider`
+4. `npm install dotenv`
+5. create a `.env` file and obtain your `MNEMONIC`and `API`
+6. Add your network config in `truffle-config.js`  `networks: { }`  
+7. `sudo truffle migrate --network <Your network> `
+8. Edit ` supportedChains :` in `client/src/index.tsx` 
+9. change the `rpcstring` in  `client/src/components/Checkpayment/CheckPayment.tsx` ,`client/src/components/Findpayment/FindPayment.tsx`,`client/src/components/Pay/Pay.tsx` and `client/src/components/withdraw/Withdraw.tsx `
+10. `cd client`
+11. `yarn install` 
+12. `yarn start` and open `http://localhost:8080/`
 
 ## Run smart contract unit tests
 1. `git clone https://github.com/silentnoname/blockchain-developer-bootcamp-final-project`
 2. run `ganache-cli`
 3. `cd blockchain-developer-bootcamp-final-project`
 4. `npm install --save-dev @openzeppelin/truffle-upgrades`
-5. `sudo truffel test`
+5. `sudo truffle test`
 ## Screencast
