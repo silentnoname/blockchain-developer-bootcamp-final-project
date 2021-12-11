@@ -33,9 +33,11 @@ npm 8.2.0
 ```
 ## Run project locally
 ### Run front end locally
-1. `cd client`
-2. `yarn install` 
-3. `yarn start` and open `http://localhost:8080/`
+1. `git clone https://github.com/silentnoname/blockchain-developer-bootcamp-final-project.git`
+2. `cd blockchain-developer-bootcamp-final-project`
+3. `cd client`
+4. `yarn install` 
+5. `yarn start` and open `http://localhost:8080/`
 
 ### deploy on other chain
 1. `git clone https://github.com/silentnoname/blockchain-developer-bootcamp-final-project.git`
