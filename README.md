@@ -53,7 +53,7 @@ npm 8.2.0
 13. `yarn build` to build the project
 
 ## Run smart contract unit tests
-1. `git clone https://github.com/silentnoname/blockchain-developer-bootcamp-final-project`
+1. `git clone https://github.com/silentnoname/blockchain-developer-bootcamp-final-project.git`
 2. run `ganache-cli`,the port should be `8545`
 3. `cd blockchain-developer-bootcamp-final-project`
 4. `npm install --save-dev @openzeppelin/truffle-upgrades`
