@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "@openzeppelin/truffle-upgrades": "^1.11.0",
+    "truffle-plugin-verify": "^0.5.19"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.0",
+    "@openzeppelin/contracts-upgradeable": "^4.4.0",
+    "dotenv": "^10.0.0",
+    "truffle-hdwallet-provider": "^1.0.17"
+  }
+}
