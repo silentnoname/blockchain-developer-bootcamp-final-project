@@ -50,7 +50,7 @@ npm 8.2.0
 8. Add your network config in `truffle-config.js`  `networks: { }`  
 9. `sudo truffle migrate --network <Your network> `
 10. Edit ` supportedChains :` in `client/src/index.tsx` 
-11. change the `rpcstring` and `createpaymentAddress` in  `client/src/components/Checkpayment/CheckPayment.tsx` ,`client/src/components/Findpayment/FindPayment.tsx`,`client/src/components/Pay/Pay.tsx` and `client/src/components/withdraw/Withdraw.tsx `
+11. change the `rpcstring` and `createpaymentAddress` in  `client/src/components/` all file`
 12. `cd client`
 13. `yarn install` 
 14. `yarn start` and open `http://localhost:8080/`
