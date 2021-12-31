@@ -45,15 +45,16 @@ npm 8.2.0
 3. `npm install truffle-hdwallet-provider`
 4. `npm install dotenv`
 5. `npm install @openzeppelin/contracts-upgradeable`
-6. create a `.env` file and obtain your `MNEMONIC`and `API`
-7. Add your network config in `truffle-config.js`  `networks: { }`  
-8. `sudo truffle migrate --network <Your network> `
-9. Edit ` supportedChains :` in `client/src/index.tsx` 
-10. change the `rpcstring` and `createpaymentAddress` in  `client/src/components/Checkpayment/CheckPayment.tsx` ,`client/src/components/Findpayment/FindPayment.tsx`,`client/src/components/Pay/Pay.tsx` and `client/src/components/withdraw/Withdraw.tsx `
-11. `cd client`
-12. `yarn install` 
-13. `yarn start` and open `http://localhost:8080/`
-14. `yarn build` to build the project
+6. `npm install @openzeppelin/truffle-upgrades`
+7. create a `.env` file and obtain your `MNEMONIC`and `API`
+8. Add your network config in `truffle-config.js`  `networks: { }`  
+9. `sudo truffle migrate --network <Your network> `
+10. Edit ` supportedChains :` in `client/src/index.tsx` 
+11. change the `rpcstring` and `createpaymentAddress` in  `client/src/components/Checkpayment/CheckPayment.tsx` ,`client/src/components/Findpayment/FindPayment.tsx`,`client/src/components/Pay/Pay.tsx` and `client/src/components/withdraw/Withdraw.tsx `
+12. `cd client`
+13. `yarn install` 
+14. `yarn start` and open `http://localhost:8080/`
+15. `yarn build` to build the project
 
 ## Run smart contract unit tests
 1. `git clone https://github.com/silentnoname/blockchain-developer-bootcamp-final-project.git`
@@ -61,6 +62,7 @@ npm 8.2.0
 3. `cd blockchain-developer-bootcamp-final-project`
 4. `npm install --save-dev @openzeppelin/truffle-upgrades`
 5. `npm install @openzeppelin/contracts-upgradeable`
-6. `sudo truffle test`
+6. `npm install @openzeppelin/truffle-upgrades`
+7. `sudo truffle test`
 ## Screencast
 https://www.youtube.com/watch?v=iGtmJyhziQ4
